@@ -1,0 +1,114 @@
+html,body,header,#intro{
+    height: 100%;
+}
+#intro{
+    background: url(../img/images/header_bg.jpg) no-repeat center center fixed;
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.btn{
+    border-radius: 100px;
+    background-color: #0b51c5;
+    font-size: medium;
+    color: white;
+}
+#getstar{
+    width: 50%;
+}
+.btn:hover{
+    background-color: #05152a;
+    color: white;
+}
+#contentes{
+    margin-top: 30%;
+}
+.menu-link{
+    color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.menu-link:hover{
+    color: #101621;
+}
+.menu-link-active{
+    color: #000000;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.top-nav-collapse{
+    background-color: #4587ff;
+}
+
+@media  (max-width: 768px){
+    .navbar:not(.top-nav-collapse){
+        background-color: #4587ff;
+    }
+}
+.navbar {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,.0), 0 0px 0px 0 rgba(0,0,0,.0);
+    font-weight: 300;
+}
+#TESTIMONIAL1{
+    /*background-color: orangered;*/
+    height: 200px;
+
+}
+#TESTIMONIAL2{
+    /*background-color: orange;*/
+    height: 200px}
+#TESTIMONIAL3{
+    /*background-color: #00c853;*/
+    height: 200px;
+}
+.carousel-item .img-box{
+    width: 135px;
+    height: 135px ;
+}
+.carousel-indicators{
+
+}
+
+#next-icon{
+
+    background-color: #3247ff;
+
+}
+#prev-icon{
+    background-color: #4c75a3;
+}
+#contact{
+    background-color: rgba(43, 43, 43, 0.8);
+    ;
+
+}
+#menu-foouter{
+    background-color: #141832
+}
+TESTIMONIAL-indicators{
+    display: none;
+}
+@media  (max-width: 768px){
+    .VELOX{
+        font-size: 150%;
+    }
+}
+#GRN{
+    width: 296px;
+    height: 65px;
+    font-size: 120%;
+
+}
+@media  (max-width: 768px) {
+    #GRN {
+        width: 70%;
+        height: 60px;
+        font-size: 100%;
+
+    }
+}
+#intro{
+    font-family: 'Lora', serif;
+}
