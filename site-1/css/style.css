@@ -1,0 +1,468 @@
+/*reset css */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ /*GOOGLE FONTS*/
+
+/*margin customs*/
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+.DancingScript{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+.mt-65{
+    margin-top: 65px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-25{
+    margin-top:25px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+/*width custom*/
+.w-40{
+    width: 40%;
+}
+/*colors*/
+.violet_text{
+    color: #503392;}
+
+/*header menu*/
+
+/*  NAVBAR SET*/
+@media  (min-width: 992px) {
+    .navbar-brand{
+        margin-left:14%;
+    }
+}
+@media  (min-width: 992px) {
+    .navbar-nav{
+        margin-left: 24%;
+        padding-left: 2%;
+        /* Style for "Home" */
+
+
+
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+}
+@media  (max-width: 992px) {
+    .navbar-nav{
+
+
+
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+}
+
+
+.navbar {
+
+
+    background-color: #e2e2e2;
+}
+
+.navbar .dropdown-toggle, .navbar .dropdown-menu a {
+    cursor: pointer;
+}
+
+.navbar .dropdown-item.active, .navbar .dropdown-item:active {
+    color: inherit;
+    text-decoration: none;
+    background-color: inherit;
+}
+
+.navbar .dropdown-item:focus, .navbar .dropdown-item:hover {
+    color: #fff200;
+    text-decoration: none;
+    background-color: #000000;
+
+}
+.navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #232323;
+    font-weight: 400;
+    line-height: 24px;
+    -webkit-transition: .35s;
+    -o-transition: .35s;
+    transition: .35s;
+}
+.navbar .dropdown-menu a {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #e9ecef;
+}
+.nav-link{}
+@media (min-width: 1024px) {
+    .navbar .dropdown-toggle:not(.nav-link)::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: .5em;
+        vertical-align: 0;
+        border-bottom: .3em solid transparent;
+        border-top: .3em solid transparent;
+        border-left: .3em solid;
+    }
+}
+/* Style for "bg" */
+.dropdown-menu{
+    /* Style for "bg" */
+    width: 183px;
+    height: 178px;
+    background-color: #000000;
+    font-weight: 300;
+    opacity: 0.65;
+    border-top: 2px solid #fff200;
+
+}
+.DROPDOWN_2_LEVEL{
+    width: 183px;
+    height: 214px;
+
+}
+.dropdown-item{
+
+    margin-right: 18px;
+    /*    margin-top: 28px;*/
+    color: #fdfdfd;
+}
+
+/*  NAVBAR SET*/
+
+
+/* intro*/
+/* header slide*/
+#photo1{
+    background: url("../img/images/header/11.jpeg") center no-repeat;
+    height: 790px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#photo2{
+    background: url("../img/images/header/2.jpg")center no-repeat;
+    height: 790px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#photo3{
+    background: url("../img/images/header/3.jpg")center no-repeat;
+    height: 790px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.photo-1_text{
+    width: 894px;
+    font-weight: 700;
+    letter-spacing: 4.26px;
+    font-family: 'Lato', sans-serif;
+    color: #fff200;
+    font-size: 64px;
+    width:100%;
+    margin-top: 306px;
+}
+.first_text{
+    color: #ffffff;
+    margin-right: 4.26px;
+}
+@media (max-width: 1024px) {
+    .photo-1_text{
+        font-size: 150%;
+    }
+
+}
+@media (max-width: 430px) {
+    .photo-1_text{
+        font-size: 120%;
+    }
+
+}
+.intro_text{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    color: #ffcb00;
+    font-size: 160%;
+    width: 65%;
+    height: 45px;
+    margin-top: 2%;
+}
+/* Features SECTION*/
+#features{
+
+    /*background-color: #efbd25;*/
+
+}
+
+.chose__text{
+    margin: 0 auto;
+    margin-top:33px;
+    /* Style for "Quisque fe" */
+    width: 44%;
+    height: 38px;
+    color: #767676;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "Q, uisque" */
+
+}
+.chose__text_h6{
+    /* Style for "Why Choose" */
+    margin-top: 115px;
+    height: 27px;
+    color: #da0014;
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+@media  (max-width: 576px) {
+    .chose__text{
+        width: 100%;
+    }
+}
+
+.features__item{
+    display: block;
+    height: 270px;
+    /*background-color: #53ff00;*/
+    margin-top: 135px;
+    font-size: 100%;
+    margin-left: 2%;
+    font-weight: bold;
+
+
+}
+
+
+.col-md-1{
+    width:100%;
+}
+/* Product SETIONS*/
+#products{
+    margin-top: 145px;
+
+    /*background-color: orangered;*/
+}
+#product_bg{
+    background-color: rgba(0, 70, 142, 0.71);
+    height: 50px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.product__item{
+    height: 145px;
+    /*background-color: #53ff00;*/
+    margin-top: 135px;
+
+    margin-left: 2%;
+    font-weight: bold;
+}
+/*ABOUT SECTIONS*/
+#about{
+
+    /*background-color: red;*/
+    margin-top: 190px;
+}
+#about_skill{
+    height: 700px;
+    /*background-color: #7d7d7d;*/
+}
+@media (max-width: 485px) {
+    #about_skill{
+        height: 900px;
+        /*background-color: #7d7d7d;*/
+    }
+}
+#abou_phone{
+    width: 100%;
+    height: 650px;
+    /*background-color: #2e5e86;*/
+}
+.skill_about{
+    color: #444444;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+/* CONTACT  CROUP*/
+
+#footer{
+
+    /*background-color: #ffea00;*/
+    /*height: 600px;*/
+    margin-top: 190px;
+}
+#map{
+    background: url("../img/images/footer/map.png") center ;
+    /*height: 634px;*/
+    width: 100%;
+    margin-top: 85px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+#map_mask{
+    background: url("../img/images/footer/overlay.png")  center ;
+    /*height: 634px;*/
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.contact_group{
+    background-color: rgba(26, 26, 26, 0.65);
+}
+#contact{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #f3f3f3;
+}
+#form{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 400;
+    line-height: 24px;
+}
+.md-form .form-control {
+    color: #b7b7b7;
+}
+.md-form input[type=text]{
+    border: 0px  ;
+}
+.md-form input[type=text]:focus{
+    border-bottom: 1px solid crimson  ;
+}
+.md-form textarea.md-textarea {
+
+    border: 0px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+/*< social bootom*/
+.bottom1{
+    width: 100%;
+    height: 64px;
+    background-color: #1a1a1a;
+    /* Style for "Copyright" */
+
+    color: #7a7a7a;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;}
+
+
+
+
+
+
+
+
+@media  (max-width: 576px) {
+    .bottom1{
+        /*margin-top: 100px;*/
+        width: 100%;
+        font-size: 12px;
+    }
+}
+
+.ml-28px{
+     margin-left: 2%;
+ }
+.mr-28px{
+    margin-right: 2%;
+}
+.social_group{
+    padding-left: 27px;
+}
