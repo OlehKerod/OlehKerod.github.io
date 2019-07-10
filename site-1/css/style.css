@@ -54,6 +54,12 @@ table {
 *{
     font-family: 'Lato', sans-serif;
 }
+/*body{*/
+/*    background-color: #00e25b;*/
+/*}*/
+.container-fluid{
+    padding: 0%;
+}
 .DancingScript{
     font-family: 'Dancing Script', cursive;
     font-family: 'Dancing Script', cursive;
@@ -126,7 +132,7 @@ table {
 .navbar {
 
 
-    background-color: #e2e2e2;
+    background-color: rgb(255, 255, 255);
 }
 
 .navbar .dropdown-toggle, .navbar .dropdown-menu a {
@@ -231,7 +237,7 @@ table {
 .photo-1_text{
     width: 894px;
     font-weight: 700;
-    letter-spacing: 4.26px;
+    letter-spacing: 1px;
     font-family: 'Lato', sans-serif;
     color: #fff200;
     font-size: 64px;
@@ -240,7 +246,8 @@ table {
 }
 .first_text{
     color: #ffffff;
-    margin-right: 4.26px;
+    margin-right: 2%;
+
 }
 @media (max-width: 1024px) {
     .photo-1_text{
@@ -272,7 +279,7 @@ table {
 
 .chose__text{
     margin: 0 auto;
-    margin-top:33px;
+    margin-top:2%;
     /* Style for "Quisque fe" */
     width: 44%;
     height: 38px;
@@ -280,17 +287,16 @@ table {
     font-family: 'Lato', sans-serif;
     font-size: 100%;
     font-weight: 400;
-    line-height: 24px;
-    /* Text style for "Q, uisque" */
+    font-size: 14px;
 
 }
 .chose__text_h6{
     /* Style for "Why Choose" */
-    margin-top: 115px;
+    margin-top: 12%;
     height: 27px;
     color: #da0014;
     font-family: Lato;
-    font-size: 35px;
+    font-size: 219%;
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
@@ -304,21 +310,64 @@ table {
 }
 
 .features__item{
-    display: block;
+
     height: 270px;
     /*background-color: #53ff00;*/
-    margin-top: 135px;
+    margin-top: 9%;
     font-size: 100%;
     margin-left: 2%;
     font-weight: bold;
 
 
+
 }
+.view .mask {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    background-attachment: fixed;
+    background-color: #503392;
+}
+
 
 
 .col-md-1{
     width:100%;
 }
+
+/* Style for "see more" */
+.more_text {
+color: #ffffff;
+font-family: 'Lato', sans-serif;
+font-size: 14px;
+
+
+text-transform: uppercase;
+/* Text style for "see more" */
+letter-spacing: 0.7px;}
+.icon_more{
+    border-radius: 100px;
+    border: solid 2px white;
+    color: white;
+    padding: 10px;
+
+}
+.icon_more:hover{
+    background-color: white;
+    color: #503392;
+    border: solid 2px #503392
+
+}
+.rotate90{
+    transform: rotate(150deg)
+}
+
+
 /* Product SETIONS*/
 #products{
     margin-top: 145px;
@@ -339,7 +388,7 @@ table {
 .product__item{
     height: 145px;
     /*background-color: #53ff00;*/
-    margin-top: 135px;
+    margin-top: 9%;
 
     margin-left: 2%;
     font-weight: bold;
@@ -348,7 +397,7 @@ table {
 #about{
 
     /*background-color: red;*/
-    margin-top: 190px;
+    margin-top: 12%;
 }
 #about_skill{
     height: 700px;
@@ -362,7 +411,7 @@ table {
 }
 #abou_phone{
     width: 100%;
-    height: 650px;
+    /*height: 900px;*/
     /*background-color: #2e5e86;*/
 }
 .skill_about{
@@ -378,7 +427,7 @@ table {
 
     /*background-color: #ffea00;*/
     /*height: 600px;*/
-    margin-top: 190px;
+    margin-top: 12%;
 }
 #map{
     background: url("../img/images/footer/map.png") center ;
